@@ -20,4 +20,8 @@ else house == "Batman"
 return false
 end
 
-
+def get_first_key(teachers_wallets)
+  for key in teachers_wallets
+      return key[0]
+    end
+end
