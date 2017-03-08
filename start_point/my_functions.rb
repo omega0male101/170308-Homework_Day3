@@ -10,3 +10,11 @@ def sum_array(numbers)
   return count
 end
 
+def find_item(array, item)
+  if item = "Ravenclaw"
+    return true
+  else
+    return false
+  end
+end
+
