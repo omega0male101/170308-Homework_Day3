@@ -4,7 +4,9 @@ end
 
 def sum_array(numbers)
   count = 0
-  for result in numbers
-    count += numbers
+  for num in numbers
+    count += num
+  end
+  return count
 end
-end
+
