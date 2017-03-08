@@ -11,10 +11,13 @@ def sum_array(numbers)
 end
 
 def find_item(array, item)
-  if item = "Ravenclaw"
-    return true
-  else
-    return false
+  for house in array
+    if house == item
+      return true
+    end
   end
+else house == "Batman"
+return false
 end
+
 
